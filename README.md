@@ -103,3 +103,14 @@ Output:
 2020 is a leap year.
 2021 is not a leap year.
 ```
+
+## Benchmark
+
+The task is [Example 2](https://github.com/acomagu/mindfa#2) above.
+
+```
+goos: linux
+goarch: amd64
+pkg: github.com/acomagu/mindfa
+BenchmarkMinimize-8         1172            933586 ns/op            6869 B/op          8 allocs/op
+```
