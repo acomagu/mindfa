@@ -1,0 +1,4 @@
+github.com/matryer/is v1.2.0 h1:92UTHpy8CDwaJ08GqLDzhhuixiBUUD1p3AU6PHddz4A=
+github.com/matryer/is v1.2.0/go.mod h1:2fLPjFQM9rhQ15aVEtbuwhJinnOqrmgXPNdZsdwlWXA=
+github.com/theodesp/unionfind v0.0.0-20181009090329-54e28c9f081e h1:mMI3DfT0woqtLW0fkZHqa+JAh4+IYd1L3pndbUzAOpg=
+github.com/theodesp/unionfind v0.0.0-20181009090329-54e28c9f081e/go.mod h1:1YbOQ/RED6w5UOYsaWLb346ayQhuDN5xE5Tv31r1n38=
