@@ -45,6 +45,8 @@ Output:
 
 (means (c, d, e), (a, b), (f)).
 
+[Playground](https://play.golang.org/p/cwMl0qKIAp3)
+
 ### 2
 
 This example creates the minimum DFA inputs the digits of year(like 2 -> 0 -> 2 -> 1) and accepts if it's a leap year.
@@ -103,6 +105,8 @@ Output:
 2020 is a leap year.
 2021 is not a leap year.
 ```
+
+[Playground](https://play.golang.org/p/kKV5FS1eCo6)
 
 ## Benchmark
 
