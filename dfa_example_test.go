@@ -44,7 +44,7 @@ func ExampleMinimize_determiningLeapYear() {
 
 	// e.g. 2 -> 20 -> 202 -> 21
 	transitions := func(state, symbol int) int {
-		return (state*10 + symbol) % nState
+		return (state*10 + symbol) % 400
 	}
 
 	partitions := mindfa.Minimize(nState, nSymbol, finals, transitions)
