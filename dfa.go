@@ -42,7 +42,7 @@ func Minimize(nState, nSymbol int, finals []int, transition func(state, symbol i
 
 	partitions := [][]int{whole[:len(finals)], whole[len(finals):nState]}
 	// works is a set of the partition which has never tried to be split.
-	works := [][]int{whole[:len(finals)], whole[len(finals):nState]}
+	works := [][]int{whole[:len(finals)], whole[len(finals):nState]} // map?
 
 	for len(works) > 0 {
 		for c := 0; c < nSymbol; c++ {
