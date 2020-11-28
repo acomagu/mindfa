@@ -47,7 +47,7 @@ Output:
 
 ## Benchmark
 
-The task is [Example 2](https://github.com/acomagu/mindfa#2) above.
+[BenchmarkMinimize](https://github.com/acomagu/mindfa/blob/master/dfa_test.go#LC81:~:text=func%20BenchmarkMinimize(b%20*testing.B)%20%7B)
 
 ```
 goos: linux
